@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JourneyMadeEz</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <nav>  
+            <a id="Active" href="home.html">Home</a>
+            <a class="contact" href="contact.html">Contact</a>
+            <a class="about" href="aboutnew.html">About</a>
+        </nav>
+    </div>
+    <h1 style="text-align:center;">DISCOVER YOUR PERFECT GETAWAY</h1>
+    <h3 style="text-align:center">
+        Explore &amp; discover the best resorts based on your location. 
+        Read reviews, view photos &amp; plan your perfect getaway with <i>JourneyMadeEz</i>
+    </h3>
+    <div class="search-container">
+        <form class="search" onsubmit="return handleSearch(event)">
+            <input type="text" placeholder="Enter your destination" id="destination" class="search-bar">
+            <button class="search-btn" type="submit">
+                <img src="search.jpg" alt="Search Icon">
+            </button>
+        </form>
+    </div>
+    <footer>
+        <p>Copyright @ 2024 - JourneyMadeEz</p>
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>
